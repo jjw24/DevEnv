@@ -1,0 +1,12 @@
+---
+description: This rule outlines best practices for writing safe, robust, and portable Bash scripts.
+globs:
+  - "**/*.sh"
+---
+
+# Bash Scripting Conventions
+- **Safeguards:** All scripts must start with the shebang `#!/usr/bin/env bash` followed by `set -euo pipefail`. This ensures the script exits on error and handles unset variables and piped commands correctly.
+- **Quoting:** Always use double quotes for all variable expansions (`"$my_var"`) and command substitutions to prevent word splitting and glob expansion.
+- **Portability:** Use portable POSIX-compliant syntax whenever possible. Avoid Bash-specific features unless necessary.
+- **Functions:** Use functions to organize code. Define them with the `function` keyword and local variables with the `local` keyword.
+- **Readability:** Use clear variable names and add comments to explain complex sections of the script.

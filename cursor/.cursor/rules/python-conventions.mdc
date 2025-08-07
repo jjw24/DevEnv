@@ -1,0 +1,13 @@
+---
+description: This rule enforces best practices for writing clean, idiomatic, and robust Python code, including PEP 8, type hints, and documentation.
+globs:
+  - "**/*.py"
+---
+
+# Python Conventions
+- **Style:** Adhere strictly to PEP 8 for code style. Use `black` formatting and avoid trailing whitespace.
+- **Type Hinting:** Use type hints for function signatures and variables to improve readability and static analysis.
+- **Readability:** Prioritize clear, descriptive variable and function names.
+- **Docstrings:** Use Google-style docstrings for all functions, classes, and methods.
+- **Error Handling:** Use specific `try...except` blocks to handle expected exceptions. Avoid broad `except:` clauses.
+- **Dependency Management:** Ensure all dependencies are managed within a virtual environment.

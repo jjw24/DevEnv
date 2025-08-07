@@ -1,0 +1,13 @@
+---
+description: This rule enforces best practices for writing Dockerfiles, including security, efficiency, and size reduction.
+globs:
+  - "**/Dockerfile*"
+---
+
+# Dockerfile Best Practices
+- **Multi-Stage Builds:** Always prefer multi-stage builds to separate build-time dependencies from runtime dependencies, resulting in a smaller final image.
+- **Base Image:** Use a minimal, official base image (e.g., `python:3.9-slim`, `node:16-alpine`).
+- **Non-Root User:** Run containers as a non-root user to improve security. Use the `USER` instruction after creating a user and group.
+- **`.dockerignore`:** Ensure there is a `.dockerignore` file in the project to exclude unnecessary files like `.git`, `node_modules`, and build artifacts from the build context.
+- **Layer Caching:** Order instructions from least to most frequently changing to leverage Docker's layer caching effectively (e.g., `COPY requirements.txt` and `RUN pip install` before copying the rest of the application).
+- **Environment Variables:** Use `ENV` instructions to define environment variables.
