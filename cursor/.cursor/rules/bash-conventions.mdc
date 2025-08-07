@@ -10,3 +10,5 @@ globs:
 - **Portability:** Use portable POSIX-compliant syntax whenever possible. Avoid Bash-specific features unless necessary.
 - **Functions:** Use functions to organize code. Define them with the `function` keyword and local variables with the `local` keyword.
 - **Readability:** Use clear variable names and add comments to explain complex sections of the script.
+- **Unit Tests** Do not add unit tests unless specifically asked to
+- **README.md** Do not add or update README.md unless specifically asked to

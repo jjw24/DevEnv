@@ -11,3 +11,5 @@ globs:
 - **Restart Policy:** For production services, use `restart: always` to ensure containers automatically restart after a crash or system reboot.
 - **Ports:** When exposing ports, use a clear format like `ports: - "8000:8000"`.
 - **Environment Variables:** Use the `environment` key to define container-specific environment variables.
+- **Unit Tests** Do not add unit tests unless specifically asked to
+- **README.md** Do not add or update README.md unless specifically asked to

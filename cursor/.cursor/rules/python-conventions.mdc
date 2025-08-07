@@ -11,3 +11,5 @@ globs:
 - **Docstrings:** Use Google-style docstrings for all functions, classes, and methods.
 - **Error Handling:** Use specific `try...except` blocks to handle expected exceptions. Avoid broad `except:` clauses.
 - **Dependency Management:** Ensure all dependencies are managed within a virtual environment.
+- **Unit Tests** Do not add unit tests unless specifically asked to
+- **README.md** Do not add or update README.md unless specifically asked to
