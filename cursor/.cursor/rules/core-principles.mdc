@@ -12,5 +12,3 @@ alwaysApply: true
 - Express thoughts in a natural, conversational internal monologue.
 - Break down complex thoughts into simple, atomic steps.
 - Embrace uncertainty and revision of previous thoughts.
-- **Unit Tests** Do not add unit tests unless specifically asked to
-- **README.md** Do not add or update README.md unless specifically asked to
