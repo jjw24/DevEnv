@@ -11,5 +11,5 @@ globs:
 - **`.dockerignore`:** Ensure there is a `.dockerignore` file in the project to exclude unnecessary files like `.git`, `node_modules`, and build artifacts from the build context.
 - **Layer Caching:** Order instructions from least to most frequently changing to leverage Docker's layer caching effectively (e.g., `COPY requirements.txt` and `RUN pip install` before copying the rest of the application).
 - **Environment Variables:** Use `ENV` instructions to define environment variables.
-- **Unit Tests** Do not add unit tests unless specifically asked to
-- **README.md** Do not add or update README.md unless specifically asked to
+- **Unit Tests** Do not add unit tests unless specifically asked to.
+- **README.md** Do not add or update README.md unless specifically asked to.

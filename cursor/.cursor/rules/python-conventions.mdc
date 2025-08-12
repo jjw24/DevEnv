@@ -18,5 +18,6 @@ globs:
 - **Error Handling:** Use guard clauses to handle preconditions and invalid states early.
 - **Error Handling:** Implement proper error logging and user-friendly error messages.
 - **Dependency Management:** Ensure all dependencies are managed within a virtual environment.
-- **Unit Tests** Do not add unit tests unless specifically asked to
-- **README.md** Do not add or update README.md unless specifically asked to
+- **Unit Tests** Do not add unit tests unless specifically asked to.
+- **README.md** Do not add or update README.md unless specifically asked to.
+- **API Client** If code is part of an API client or client wrapper, always first search for solution in the client's API documentation on the web.
