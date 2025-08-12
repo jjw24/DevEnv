@@ -11,12 +11,12 @@ globs:
 - **Readability:** Prioritize clear, descriptive variable and function names.
 - **Docstrings:** Use Google-style docstrings for all functions, classes, and methods.
 - **Error Handling:** Use specific `try...except` blocks to handle expected exceptions. Avoid broad `except:` clauses.
-- **Handle errors and edge cases at the beginning of functions.
-- **Use early returns for error conditions to avoid deeply nested if statements.
-- **Place the happy path last in the function for improved readability.
-- **Avoid unnecessary else statements; use the if-return pattern instead.
-- **Use guard clauses to handle preconditions and invalid states early.
-- **Implement proper error logging and user-friendly error messages.
+- **Error Handling:** Handle errors and edge cases at the beginning of functions.
+- **Error Handling:** Use early returns for error conditions to avoid deeply nested if statements.
+- **Error Handling:** Place the happy path last in the function for improved readability.
+- **Error Handling:** Avoid unnecessary else statements; use the if-return pattern instead.
+- **Error Handling:** Use guard clauses to handle preconditions and invalid states early.
+- **Error Handling:** Implement proper error logging and user-friendly error messages.
 - **Dependency Management:** Ensure all dependencies are managed within a virtual environment.
 - **Unit Tests** Do not add unit tests unless specifically asked to
 - **README.md** Do not add or update README.md unless specifically asked to
