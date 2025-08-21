@@ -1,0 +1,13 @@
+---
+name: "helm-chart-conventions"
+description: "Best practices for building Helm charts"
+globs: ["**/templates/*.yaml", "**/Chart.yaml", "**/*.sh", "**/*.md", "**/scripts/**"]
+---
+
+# Helm Chart Conventions
+
+## Bespoke
+- **Deploy Scripts:** never add deployment automation (deploy.sh, install.sh, etc.) unless explicitly requested
+- **Test Scripts:** never add testing frameworks or test scripts unless explicitly requested
+- **Structure:** stick to standard Helm chart structure: Chart.yaml, values.yaml, templates/, and documentation
+- **No Extras:** add what is specifically requested - no "helpful extras"

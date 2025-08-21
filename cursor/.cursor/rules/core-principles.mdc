@@ -18,9 +18,14 @@ alwaysApply: true
 - Break down complex thoughts into simple, atomic steps
 - Embrace uncertainty and revision of previous thoughts
 - Always verify information before presenting it. Do not make assumptions or speculate without clear evidence
+- Do not make any changes until you have 95% confidence that you know what to build and ask follow up questions until you have that confidence
 
 ## Change Control
-- Do not make any changes until you have 95% confidence that you know what to build and ask follow up questions until you have that confidence
+- Before each major step, summarise the changes that will take place, the rules that are being followed, and then stop to wait for user confirmation
+- Do not add documentation beyond what is necessary for the requested functionality
+- If unsure whether a file/change is needed, ask the user instead of implementing it
+- If you think something would be helpful, ask the user first instead of creating it
+
+## Bespoke
 - Do not add unit tests unless specifically asked to
 - Do not add README.md unless specifically asked to
-- Do not add documentation beyond what is necessary for the requested functionality
