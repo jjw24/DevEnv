@@ -6,8 +6,11 @@ globs: ["**/templates/*.yaml", "**/Chart.yaml", "**/*.sh", "**/*.md", "**/script
 
 # Helm Chart Conventions
 
+## Change Control
+- Always refer to Helm Chart documentation at https://helm.sh/docs/ when making changes
+
 ## Bespoke
-- **Deploy Scripts:** never add deployment automation (deploy.sh, install.sh, etc.) unless explicitly requested
-- **Test Scripts:** never add testing frameworks or test scripts unless explicitly requested
-- **Structure:** stick to standard Helm chart structure: Chart.yaml, values.yaml, templates/, and documentation
-- **No Extras:** add what is specifically requested - no "helpful extras"
+- Never add deployment automation (deploy.sh, install.sh, etc.) unless explicitly requested
+- Never add testing frameworks or test scripts unless explicitly requested
+- Stick to standard Helm chart structure: Chart.yaml, values.yaml, templates/, and documentation
+- Add what is specifically requested - no "helpful extras"
